@@ -22,6 +22,6 @@ def diagnose():
     return jsonify({'msg': msg})
 
 
-    # Run server
-if __name__ == '__main__':
-    app.run(debug=True)
+#     # Run server
+# if __name__ == '__main__':
+#     app.run(debug=True)
