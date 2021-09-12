@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import os
-from doctor import Doctor
+from .doctor import Doctor
 
 # Init app
 app = Flask(__name__)
