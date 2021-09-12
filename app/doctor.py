@@ -9,7 +9,7 @@ class Doctor:
     """
 
     # load the ailment_symptoms.json file as a json object
-    with open("ailment_symptoms.json") as fileObj:
+    with open("ailment_symptoms.json", "w+") as fileObj:
         data = json.load(fileObj)
 
     # this class variable stores symptoms and their most probable ailment in a dictionary
